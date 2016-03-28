@@ -1,1 +1,1 @@
-web: gunicorn salesforecastproject.wsgi
+web: gunicorn dataforecastonline.wsgi
