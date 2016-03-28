@@ -6,3 +6,15 @@ def index(request):
 
 def tables(request):
     return render(request, 'dashboard/tables.html')
+
+def login(request):
+    return render(request, 'dashboard/login.html')
+
+def morris(request):
+    return render(request, 'dashboard/morris.html')
+
+def flot(request):
+    return render(request, 'dashboard/flot.html')
+
+def forms(request):
+    return render(request, 'dashboard/forms.html')
