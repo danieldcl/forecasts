@@ -8,5 +8,6 @@ urlpatterns = [
     url(r'^morris/$', views.morris, name='morris'),
     url(r'^flot/$', views.flot, name='flot'),
     url(r'^forms/$', views.forms, name='forms'),
+    url(r'^results/$', views.results, name='results'),
 
 ]
